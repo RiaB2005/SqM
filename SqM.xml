@@ -2,7 +2,7 @@
   <block type="controls_repeat" id="83" inline="true" x="102" y="29">
     <value name="TIMES">
       <block type="math_number" id="96">
-        <field name="NUM">2</field>
+        <field name="NUM">4</field>
       </block>
     </value>
     <statement name="DO">
@@ -57,51 +57,5 @@
         </next>
       </block>
     </statement>
-  </block>
-  <block type="movement_forward" id="268" x="-62" y="72">
-    <next>
-      <block type="movement_forward" id="288">
-        <next>
-          <block type="movement_forward" id="278">
-            <next>
-              <block type="robot_delay" id="300" inline="true">
-                <value name="DELAY">
-                  <block type="math_number" id="325">
-                    <field name="NUM">0</field>
-                  </block>
-                </value>
-                <next>
-                  <block type="robot_delay" id="298" inline="true">
-                    <value name="DELAY">
-                      <block type="math_number" id="332">
-                        <field name="NUM">0</field>
-                      </block>
-                    </value>
-                    <next>
-                      <block type="robot_delay" id="302" inline="true">
-                        <value name="DELAY">
-                          <block type="math_number" id="318">
-                            <field name="NUM">0</field>
-                          </block>
-                        </value>
-                        <next>
-                          <block type="robot_delay" id="304" inline="true">
-                            <value name="DELAY">
-                              <block type="math_number" id="311">
-                                <field name="NUM">0</field>
-                              </block>
-                            </value>
-                          </block>
-                        </next>
-                      </block>
-                    </next>
-                  </block>
-                </next>
-              </block>
-            </next>
-          </block>
-        </next>
-      </block>
-    </next>
   </block>
 </xml>
